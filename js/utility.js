@@ -37,7 +37,7 @@ function documentReady() {
 	}
 }
 function storeLocal() {
-	fetch("https://saberhosneydev.github.io/nobel/js/prize.json", {
+	fetch("./js/prize.json", {
 		method: "GET",
 	}).then(
 		function (response) {
