@@ -24,7 +24,6 @@ function searchNobel() {
 					if (
 						item["nobelPrizes"][0]["awardYear"] == searchInput.value
 					) {
-						console.log(item);
 						searchResults.innerHTML += `
 										<div class="showResult">
 							<h3>${item["knownName"]["en"]}</h3>
@@ -78,7 +77,6 @@ function searchNobel() {
 								searchInput.value.substring("c/".length)
 							)
 						) {
-							console.log(item);
 							searchResults.innerHTML += `
 											<div class="showResult">
 								<h3>${item["knownName"]["en"]}</h3>
@@ -127,7 +125,6 @@ function searchNobel() {
 							"en"
 						].toLowerCase();
 						if (lowerFullName.includes(searchInput.value)) {
-							console.log(item);
 							searchResults.innerHTML += `
 											<div class="showResult">
 								<h3>${item["knownName"]["en"]}</h3>
