@@ -55,7 +55,7 @@ function searchNobel() {
 							item["birth"]["place"]["locationString"]["en"]
 						}
 										</p>
-							<p class="transparent">
+							<p class="transparent" style="padding-left:10px;padding-right:10px;">
 								The award was given ${item["nobelPrizes"][0]["motivation"]["en"]}.
 								<br />
 								<a href="https://saberhosneydev.github.io/nobel/info.html?id=${
@@ -108,7 +108,7 @@ function searchNobel() {
 								item["birth"]["place"]["locationString"]["en"]
 							}
 											</p>
-								<p class="transparent">
+								<p class="transparent" style="padding-left:10px;padding-right:10px;">
 									The award was given ${item["nobelPrizes"][0]["motivation"]["en"]}.
 									<br />
 									<a href="https://saberhosneydev.github.io/nobel/info.html?id=${
@@ -156,7 +156,7 @@ function searchNobel() {
 								item["birth"]["place"]["locationString"]["en"]
 							}
 											</p>
-								<p class="transparent">
+								<p class="transparent" style="padding-left:10px;padding-right:10px;">
 									The award was given ${item["nobelPrizes"][0]["motivation"]["en"]}.
 									<br />
 									<a href="https://saberhosneydev.github.io/nobel/info.html?id=${
